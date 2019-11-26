@@ -21,7 +21,19 @@ class ContainerDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      color: Colors.grey[100],
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: NetworkImage('http://b.hiphotos.baidu.com/image/pic/item/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg'),
+          alignment: Alignment.topCenter,
+          // repeat: ImageRepeat.repeat,
+          fit: BoxFit.cover,
+          colorFilter: ColorFilter.mode(
+              Colors.indigoAccent[400].withOpacity(0.5),
+              BlendMode.hardLight,
+          ),
+        ),
+      ),
+      // color: Colors.green,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -38,7 +50,29 @@ class ContainerDemo extends StatelessWidget {
                   color: Colors.indigoAccent[100],
                   width: 3.0,
                   style: BorderStyle.solid,
-                )),
+                ),
+                // borderRadius: BorderRadius.circular(16.0),
+                boxShadow: [BoxShadow(
+                      offset: Offset(6.0, 7.0),
+                      color: Color.fromRGBO(16, 20,  188, 1.0),
+                    blurRadius: 1.0,
+                    spreadRadius: 0.0,
+                  )],
+                shape: BoxShape.circle,
+//                gradient: RadialGradient(
+//                    colors: [
+//                      Color.fromRGBO(7, 102, 255, 1.0),
+//                      Color.fromRGBO(3, 28, 128, 1.0),
+//                    ])
+                gradient: LinearGradient(
+                  colors: [
+                    Color.fromRGBO(7, 102, 255, 1.0),
+                    Color.fromRGBO(3, 28, 128, 1.0),
+                  ],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                )
+            ),
           )
         ],
       ),
