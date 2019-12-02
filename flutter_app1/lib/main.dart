@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           title: new Text('WelcometoFlutter1'),
         ),
         body: new Center(
-          child: new Text('Hello World 1'),
+          child: MyHomePage(),
         ),
       ),
     );

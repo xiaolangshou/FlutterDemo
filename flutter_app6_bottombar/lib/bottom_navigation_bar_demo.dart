@@ -17,6 +17,8 @@ class _BottomNavigationBarDemoState extends State<BottomNavigationBarDemo> {
     setState(() {
       _currentIndex = index;
     });
+
+    print('$_currentIndex');
   }
 
   @override
