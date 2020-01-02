@@ -6,6 +6,13 @@ class DemoLocalizations {
 
   DemoLocalizations(this.locale);
 
+  static DemoLocalizations of (BuildContext context) {
+    return Localizations.of<DemoLocalizations>(
+      context,
+        DemoLocalizations
+    );
+  }
+
   static Map<String, Map<String, String>> _localized = {
     'en': {
       'title': 'hello',

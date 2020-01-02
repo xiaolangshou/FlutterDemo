@@ -1,0 +1,17 @@
+{
+  "@@last_modified": "2020-01-02T10:32:41.361468",
+  "title": "你好啊",
+  "@title": {
+    "description": "演示本地化.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "greet": "你好 {name}",
+  "@greet": {
+    "description": "问候某人.",
+    "type": "text",
+    "placeholders": {
+      "name": {}
+    }
+  }
+}

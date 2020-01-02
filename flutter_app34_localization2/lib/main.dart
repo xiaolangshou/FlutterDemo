@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'localizations.dart';
+// import 'localizations.dart';
+import 'demo_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'i18n_demo.dart';
 
@@ -10,9 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localeResolutionCallback: (Locale locale, Iterable<Locale> supportedLocale) {
-        return Locale('zh', 'CN');
-      },
+      locale: Locale('en', 'US'),
+//      localeResolutionCallback: (Locale locale, Iterable<Locale> supportedLocale) {
+//        return Locale('en', 'US');
+//      },
       localizationsDelegates: [
         DemoLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
