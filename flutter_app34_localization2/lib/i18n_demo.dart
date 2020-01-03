@@ -22,7 +22,12 @@ class I18nDemo extends StatelessWidget {
               // Localizations.of(context, DemoLocalizations).title,
               DemoLocalizations.of(context).greet('thomas lau lalalalalalalala'),
               style: Theme.of(context).textTheme.title,
-            )
+            ),
+            Text(
+              // Localizations.of(context, DemoLocalizations).title,
+              DemoLocalizations.of(context).greet2('thomas lau lalalalalalalala'),
+              style: Theme.of(context).textTheme.title,
+            ),
           ],
         ),
       ),

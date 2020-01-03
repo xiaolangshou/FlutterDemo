@@ -1,5 +1,5 @@
 {
-  "@@last_modified": "2020-01-02T10:32:41.361468",
+  "@@last_modified": "2020-01-03T16:27:47.001151",
   "title": "hello",
   "@title": {
     "description": "demo localizations.",
@@ -13,5 +13,13 @@
     "placeholders": {
       "name": {}
     }
-  }
+  },
+  "greet2": "hello {name}",
+  "@greet2": {
+    "description": "greet2 someone.",
+    "type": "text",
+    "placeholders": {
+      "name": {}
+    }
+  },
 }

@@ -35,6 +35,13 @@ class DemoLocalizations {
     args: [name],
   );
 
+  String greet2(String name) => Intl.message(
+    'hello2 $name',
+    name: 'greet2',
+    desc: 'greet2 someone.',
+    args: [name],
+  );
+
 }
 
 class DemoLocalizationsDelegate extends LocalizationsDelegate<DemoLocalizations>

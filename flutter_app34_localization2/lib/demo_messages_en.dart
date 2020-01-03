@@ -21,9 +21,12 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m0(name) => "hello ${name}";
 
+  static m1(name) => "hello 2 ${name}";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
     "greet" : m0,
+    "greet2": m1,
     "title" : MessageLookupByLibrary.simpleMessage("hello")
   };
 }
