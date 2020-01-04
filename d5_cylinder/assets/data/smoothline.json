@@ -1,0 +1,2194 @@
+{
+  "Fanuc1": {
+    "devid": "Fanuc1",
+    "acqtime": 1560792781,
+    "abs": {
+      "x": -210,
+      "y": 60,
+      "z": 219,
+      "da": 7
+    },
+    "rel": {
+      "x": 640,
+      "y": 314,
+      "z": 312,
+      "da": 83
+    },
+    "mac": {
+      "x": -334,
+      "y": -376,
+      "z": 76,
+      "da": 56
+    },
+    "dis": {
+      "x": -418,
+      "y": 10,
+      "z": 272,
+      "da": 87
+    },
+    "otherData": {
+      "runstatus": null,
+      "autmode": null,
+      "mstbmode": null,
+      "motion": null,
+      "dummy": null,
+      "emergency": null,
+      "edit": null,
+      "tmmode": null,
+      "isalarm": null,
+      "alarm_type": null,
+      "alarm_mes": null,
+      "addinfo": null,
+      "max_axis": null,
+      "axes": null,
+      "cnc_type": null,
+      "mt_type": null,
+      "series": null,
+      "version": null
+    },
+    "spindle_temp": {
+      "spindle_temp": 15,
+      "servo_temp_x": 10,
+      "servo_temp_y": 23,
+      "servo_temp_z": 13
+    },
+    "spindle_current": {
+      "spindle_current": 47,
+      "servo_current_x": 48,
+      "servo_current_y": 39,
+      "servo_current_z": 43
+    },
+    "spindle_real_speed": 1421,
+    "spindle_cmd_speed": 439,
+    "spindle_speed_rate": 24,
+    "servo_cmd_speed": 2348,
+    "serv_real_speed_x": 859,
+    "serv_real_speed_y": 1199,
+    "serv_real_speed_z": 506,
+    "serv_speed_rate": 28,
+    "partcount": null,
+    "totalcount": 120,
+    "reqcount": null,
+    "cycletime": "1112H54M21S",
+    "cncpowerontime": "1112H54M21S",
+    "cncruntime": "12H54M21S",
+    "cnccuttingtime": "12H54M21S",
+    "cncworkratio": null,
+    "progworkratio": null,
+    "feedspeed": 1986,
+    "spindlespeed": 1454,
+    "spindlecount": null,
+    "currentprognum": null,
+    "mainprognum": null,
+    "seqnum": null,
+    "svload": null,
+    "tool_num": 1,
+    "spload": "13",
+    "daycount": [
+      {
+        "day": "1553097600",
+        "count": 238
+      },
+      {
+        "day": "1553184000",
+        "count": 460
+      },
+      {
+        "day": "1553270400",
+        "count": 107
+      },
+      {
+        "day": "1553356800",
+        "count": 466
+      },
+      {
+        "day": "1553443200",
+        "count": 175
+      },
+      {
+        "day": "1553529600",
+        "count": 307
+      },
+      {
+        "day": "1553616000",
+        "count": 173
+      },
+      {
+        "day": "1553702400",
+        "count": 217
+      },
+      {
+        "day": "1553788800",
+        "count": 379
+      },
+      {
+        "day": "1553875200",
+        "count": 402
+      },
+      {
+        "day": "1553961600",
+        "count": 444
+      },
+      {
+        "day": "1554048000",
+        "count": 250
+      },
+      {
+        "day": "1554134400",
+        "count": 192
+      },
+      {
+        "day": "1554220800",
+        "count": 381
+      },
+      {
+        "day": "1554307200",
+        "count": 127
+      },
+      {
+        "day": "1554393600",
+        "count": 173
+      },
+      {
+        "day": "1554480000",
+        "count": 153
+      },
+      {
+        "day": "1554566400",
+        "count": 480
+      },
+      {
+        "day": "1554652800",
+        "count": 318
+      },
+      {
+        "day": "1554739200",
+        "count": 164
+      },
+      {
+        "day": "1554825600",
+        "count": 489
+      },
+      {
+        "day": "1554912000",
+        "count": 215
+      },
+      {
+        "day": "1554998400",
+        "count": 381
+      },
+      {
+        "day": "1555084800",
+        "count": 413
+      },
+      {
+        "day": "1555171200",
+        "count": 242
+      },
+      {
+        "day": "1555257600",
+        "count": 392
+      },
+      {
+        "day": "1555344000",
+        "count": 321
+      },
+      {
+        "day": "1555430400",
+        "count": 123
+      },
+      {
+        "day": "1555516800",
+        "count": 132
+      },
+      {
+        "day": "1555603200",
+        "count": 133
+      }
+    ],
+    "hourcount": [
+      {
+        "hour": "1557248400",
+        "count": 41
+      },
+      {
+        "hour": "1557252000",
+        "count": 51
+      },
+      {
+        "hour": "1557255600",
+        "count": 41
+      },
+      {
+        "hour": "1557259200",
+        "count": 13
+      },
+      {
+        "hour": "1557262800",
+        "count": 41
+      },
+      {
+        "hour": "1557266400",
+        "count": 52
+      },
+      {
+        "hour": "1557270000",
+        "count": 14
+      },
+      {
+        "hour": "1557273600",
+        "count": 14
+      },
+      {
+        "hour": "1557277200",
+        "count": 0
+      },
+      {
+        "hour": "1557280800",
+        "count": 12
+      },
+      {
+        "hour": "1557284400",
+        "count": 41
+      },
+      {
+        "hour": "1557288000",
+        "count": 32
+      },
+      {
+        "hour": "1557291600",
+        "count": 17
+      },
+      {
+        "hour": "1557295200",
+        "count": 28
+      },
+      {
+        "hour": "1557298800",
+        "count": 28
+      },
+      {
+        "hour": "1557302400",
+        "count": 23
+      },
+      {
+        "hour": "1557306000",
+        "count": 32
+      },
+      {
+        "hour": "1557309600",
+        "count": 46
+      },
+      {
+        "hour": "1557313200",
+        "count": 31
+      },
+      {
+        "hour": "1557316800",
+        "count": 31
+      },
+      {
+        "hour": "1557320400",
+        "count": 13
+      },
+      {
+        "hour": "1557324000",
+        "count": 42
+      },
+      {
+        "hour": "1557327600",
+        "count": 63
+      },
+      {
+        "hour": "1557331200",
+        "count": 13
+      }
+    ],
+    "feedspeeddata": [
+      {
+        "time": "1553234509029",
+        "count": 1198
+      },
+      {
+        "time": "1553234509128",
+        "count": 1607
+      },
+      {
+        "time": "1553234509224",
+        "count": 466
+      },
+      {
+        "time": "1553234509318",
+        "count": 592
+      },
+      {
+        "time": "1553234509415",
+        "count": 1656
+      },
+      {
+        "time": "1553234509510",
+        "count": 281
+      },
+      {
+        "time": "1553234509605",
+        "count": 360
+      },
+      {
+        "time": "1553234509701",
+        "count": 440
+      },
+      {
+        "time": "1553234509790",
+        "count": 473
+      },
+      {
+        "time": "1553234509888",
+        "count": 752
+      },
+      {
+        "time": "1553234509985",
+        "count": 536
+      },
+      {
+        "time": "1553234510127",
+        "count": 1747
+      },
+      {
+        "time": "1553234510229",
+        "count": 1909
+      },
+      {
+        "time": "1553234510333",
+        "count": 90
+      },
+      {
+        "time": "1553234510424",
+        "count": 232
+      },
+      {
+        "time": "1553234510525",
+        "count": 1931
+      },
+      {
+        "time": "1553234510634",
+        "count": 883
+      },
+      {
+        "time": "1553234510731",
+        "count": 1081
+      },
+      {
+        "time": "1553234510826",
+        "count": 419
+      },
+      {
+        "time": "1553234510922",
+        "count": 937
+      },
+      {
+        "time": "1553234511016",
+        "count": 126
+      },
+      {
+        "time": "1553234511114",
+        "count": 865
+      },
+      {
+        "time": "1553234511211",
+        "count": 1305
+      },
+      {
+        "time": "1553234511335",
+        "count": 73
+      },
+      {
+        "time": "1553234511438",
+        "count": 808
+      },
+      {
+        "time": "1553234511535",
+        "count": 87
+      },
+      {
+        "time": "1553234511643",
+        "count": 948
+      },
+      {
+        "time": "1553234511771",
+        "count": 665
+      },
+      {
+        "time": "1553234511878",
+        "count": 793
+      },
+      {
+        "time": "1553234511965",
+        "count": 1134
+      },
+      {
+        "time": "1553234512054",
+        "count": 215
+      },
+      {
+        "time": "1553234512165",
+        "count": 653
+      },
+      {
+        "time": "1553234512286",
+        "count": 630
+      },
+      {
+        "time": "1553234512394",
+        "count": 854
+      },
+      {
+        "time": "1553234512525",
+        "count": 777
+      },
+      {
+        "time": "1553234512644",
+        "count": 1398
+      },
+      {
+        "time": "1553234512737",
+        "count": 624
+      },
+      {
+        "time": "1553234512834",
+        "count": 635
+      },
+      {
+        "time": "1553234512940",
+        "count": 623
+      },
+      {
+        "time": "1553234513042",
+        "count": 1451
+      },
+      {
+        "time": "1553234513141",
+        "count": 646
+      },
+      {
+        "time": "1553234513241",
+        "count": 1855
+      },
+      {
+        "time": "1553234513347",
+        "count": 1014
+      },
+      {
+        "time": "1553234513455",
+        "count": 1578
+      },
+      {
+        "time": "1553234513544",
+        "count": 825
+      },
+      {
+        "time": "1553234513667",
+        "count": 1944
+      },
+      {
+        "time": "1553234513787",
+        "count": 131
+      },
+      {
+        "time": "1553234513880",
+        "count": 581
+      },
+      {
+        "time": "1553234513973",
+        "count": 717
+      },
+      {
+        "time": "1553234514066",
+        "count": 695
+      },
+      {
+        "time": "1553234514215",
+        "count": 469
+      },
+      {
+        "time": "1553234514312",
+        "count": 1161
+      },
+      {
+        "time": "1553234514407",
+        "count": 538
+      },
+      {
+        "time": "1553234514512",
+        "count": 545
+      },
+      {
+        "time": "1553234514604",
+        "count": 488
+      },
+      {
+        "time": "1553234514703",
+        "count": 1969
+      },
+      {
+        "time": "1553234514821",
+        "count": 1519
+      },
+      {
+        "time": "1553234514946",
+        "count": 1377
+      },
+      {
+        "time": "1553234515040",
+        "count": 1792
+      },
+      {
+        "time": "1553234515134",
+        "count": 789
+      }
+    ]
+  },
+  "Fanuc2": {
+    "devid": "Fanuc2",
+    "acqtime": 1557196889,
+    "abs": {
+      "x": 317,
+      "y": 314,
+      "z": -94,
+      "da": 167
+    },
+    "rel": {
+      "x": 496,
+      "y": 62,
+      "z": -111,
+      "da": 359
+    },
+    "mac": {
+      "x": 546,
+      "y": -305,
+      "z": -300,
+      "da": 6
+    },
+    "dis": {
+      "x": 61,
+      "y": 277,
+      "z": -282,
+      "da": 208
+    },
+    "otherData": {
+      "runstatus": null,
+      "autmode": null,
+      "mstbmode": null,
+      "motion": null,
+      "dummy": null,
+      "emergency": null,
+      "edit": null,
+      "tmmode": null,
+      "isalarm": null,
+      "alarm_type": null,
+      "alarm_mes": null,
+      "addinfo": null,
+      "max_axis": null,
+      "axes": null,
+      "cnc_type": null,
+      "mt_type": null,
+      "series": null,
+      "version": null
+    },
+    "spindle_temp": {
+      "spindle_temp": 23,
+      "servo_temp_x": 31,
+      "servo_temp_y": 24,
+      "servo_temp_z": 45
+    },
+    "spindle_current": {
+      "spindle_current": 55,
+      "servo_current_x": 52,
+      "servo_current_y": 47,
+      "servo_current_z": 38
+    },
+    "spindle_real_speed": 306,
+    "spindle_cmd_speed": 1183,
+    "spindle_speed_rate": 20,
+    "servo_cmd_speed": 2154,
+    "serv_real_speed_x": 947,
+    "serv_real_speed_y": 1384,
+    "serv_real_speed_z": 636,
+    "serv_speed_rate": 33,
+    "partcount": null,
+    "totalcount": 345,
+    "reqcount": null,
+    "cycletime": "1112H54M21S",
+    "cncpowerontime": "1112H54M21S",
+    "cncruntime": "12H54M21S",
+    "cnccuttingtime": "12H54M21S",
+    "cncworkratio": null,
+    "progworkratio": null,
+    "feedspeed": 1621,
+    "spindlespeed": 1628,
+    "spindlecount": null,
+    "currentprognum": null,
+    "mainprognum": null,
+    "seqnum": null,
+    "svload": null,
+    "tool_num": 13,
+    "spload": "24",
+    "daycount": [
+      {
+        "day": "1552924800",
+        "count": 128
+      },
+      {
+        "day": "1553011200",
+        "count": 479
+      },
+      {
+        "day": "1553097600",
+        "count": 94
+      },
+      {
+        "day": "1553184000",
+        "count": 311
+      },
+      {
+        "day": "1553270400",
+        "count": 88
+      },
+      {
+        "day": "1553356800",
+        "count": 469
+      },
+      {
+        "day": "1553443200",
+        "count": 122
+      },
+      {
+        "day": "1553529600",
+        "count": 304
+      },
+      {
+        "day": "1553616000",
+        "count": 195
+      },
+      {
+        "day": "1553702400",
+        "count": 435
+      },
+      {
+        "day": "1553788800",
+        "count": 332
+      },
+      {
+        "day": "1553875200",
+        "count": 94
+      },
+      {
+        "day": "1553961600",
+        "count": 328
+      },
+      {
+        "day": "1554048000",
+        "count": 342
+      },
+      {
+        "day": "1554134400",
+        "count": 476
+      },
+      {
+        "day": "1554220800",
+        "count": 298
+      },
+      {
+        "day": "1554307200",
+        "count": 158
+      },
+      {
+        "day": "1554393600",
+        "count": 251
+      },
+      {
+        "day": "1554480000",
+        "count": 256
+      },
+      {
+        "day": "1554566400",
+        "count": 188
+      },
+      {
+        "day": "1554652800",
+        "count": 218
+      },
+      {
+        "day": "1554739200",
+        "count": 201
+      },
+      {
+        "day": "1554825600",
+        "count": 314
+      },
+      {
+        "day": "1554912000",
+        "count": 199
+      },
+      {
+        "day": "1554998400",
+        "count": 379
+      },
+      {
+        "day": "1555084800",
+        "count": 355
+      },
+      {
+        "day": "1555171200",
+        "count": 262
+      },
+      {
+        "day": "1555257600",
+        "count": 307
+      },
+      {
+        "day": "1555344000",
+        "count": 378
+      },
+      {
+        "day": "1555430400",
+        "count": 434
+      }
+    ],
+    "hourcount": [
+      {
+        "hour": "1557248400",
+        "count": 25
+      },
+      {
+        "hour": "1557252000",
+        "count": 42
+      },
+      {
+        "hour": "1557255600",
+        "count": 63
+      },
+      {
+        "hour": "1557259200",
+        "count": 42
+      },
+      {
+        "hour": "1557262800",
+        "count": 52
+      },
+      {
+        "hour": "1557266400",
+        "count": 52
+      },
+      {
+        "hour": "1557270000",
+        "count": 36
+      },
+      {
+        "hour": "1557273600",
+        "count": 25
+      },
+      {
+        "hour": "1557277200",
+        "count": 63
+      },
+      {
+        "hour": "1557280800",
+        "count": 52
+      },
+      {
+        "hour": "1557284400",
+        "count": 52
+      },
+      {
+        "hour": "1557288000",
+        "count": 52
+      },
+      {
+        "hour": "1557291600",
+        "count": 52
+      },
+      {
+        "hour": "1557295200",
+        "count": 42
+      },
+      {
+        "hour": "1557298800",
+        "count": 52
+      },
+      {
+        "hour": "1557302400",
+        "count": 14
+      },
+      {
+        "hour": "1557306000",
+        "count": 51
+      },
+      {
+        "hour": "1557309600",
+        "count": 41
+      },
+      {
+        "hour": "1557313200",
+        "count": 52
+      },
+      {
+        "hour": "1557316800",
+        "count": 41
+      },
+      {
+        "hour": "1557320400",
+        "count": 51
+      },
+      {
+        "hour": "1557324000",
+        "count": 52
+      },
+      {
+        "hour": "1557327600",
+        "count": 51
+      },
+      {
+        "hour": "1557331200",
+        "count": 14
+      }
+    ],
+    "feedspeeddata": [
+      {
+        "time": "1553234509029",
+        "count": 394
+      },
+      {
+        "time": "1553234509128",
+        "count": 1156
+      },
+      {
+        "time": "1553234509224",
+        "count": 781
+      },
+      {
+        "time": "1553234509318",
+        "count": 907
+      },
+      {
+        "time": "1553234509415",
+        "count": 677
+      },
+      {
+        "time": "1553234509510",
+        "count": 174
+      },
+      {
+        "time": "1553234509605",
+        "count": 264
+      },
+      {
+        "time": "1553234509701",
+        "count": 771
+      },
+      {
+        "time": "1553234509790",
+        "count": 358
+      },
+      {
+        "time": "1553234509888",
+        "count": 1332
+      },
+      {
+        "time": "1553234509985",
+        "count": 1469
+      },
+      {
+        "time": "1553234510127",
+        "count": 1707
+      },
+      {
+        "time": "1553234510229",
+        "count": 539
+      },
+      {
+        "time": "1553234510333",
+        "count": 777
+      },
+      {
+        "time": "1553234510424",
+        "count": 1041
+      },
+      {
+        "time": "1553234510525",
+        "count": 1929
+      },
+      {
+        "time": "1553234510634",
+        "count": 267
+      },
+      {
+        "time": "1553234510731",
+        "count": 1807
+      },
+      {
+        "time": "1553234510826",
+        "count": 1431
+      },
+      {
+        "time": "1553234510922",
+        "count": 1434
+      },
+      {
+        "time": "1553234511016",
+        "count": 1617
+      },
+      {
+        "time": "1553234511114",
+        "count": 784
+      },
+      {
+        "time": "1553234511211",
+        "count": 1724
+      },
+      {
+        "time": "1553234511335",
+        "count": 509
+      },
+      {
+        "time": "1553234511438",
+        "count": 1714
+      },
+      {
+        "time": "1553234511535",
+        "count": 94
+      },
+      {
+        "time": "1553234511643",
+        "count": 503
+      },
+      {
+        "time": "1553234511771",
+        "count": 1551
+      },
+      {
+        "time": "1553234511878",
+        "count": 1619
+      },
+      {
+        "time": "1553234511965",
+        "count": 370
+      },
+      {
+        "time": "1553234512054",
+        "count": 1765
+      },
+      {
+        "time": "1553234512165",
+        "count": 1778
+      },
+      {
+        "time": "1553234512286",
+        "count": 1160
+      },
+      {
+        "time": "1553234512394",
+        "count": 314
+      },
+      {
+        "time": "1553234512525",
+        "count": 215
+      },
+      {
+        "time": "1553234512644",
+        "count": 1433
+      },
+      {
+        "time": "1553234512737",
+        "count": 1520
+      },
+      {
+        "time": "1553234512834",
+        "count": 1275
+      },
+      {
+        "time": "1553234512940",
+        "count": 381
+      },
+      {
+        "time": "1553234513042",
+        "count": 1133
+      },
+      {
+        "time": "1553234513141",
+        "count": 439
+      },
+      {
+        "time": "1553234513241",
+        "count": 211
+      },
+      {
+        "time": "1553234513347",
+        "count": 1134
+      },
+      {
+        "time": "1553234513455",
+        "count": 352
+      },
+      {
+        "time": "1553234513544",
+        "count": 665
+      },
+      {
+        "time": "1553234513667",
+        "count": 1720
+      },
+      {
+        "time": "1553234513787",
+        "count": 867
+      },
+      {
+        "time": "1553234513880",
+        "count": 1725
+      },
+      {
+        "time": "1553234513973",
+        "count": 107
+      },
+      {
+        "time": "1553234514066",
+        "count": 662
+      },
+      {
+        "time": "1553234514215",
+        "count": 797
+      },
+      {
+        "time": "1553234514312",
+        "count": 1855
+      },
+      {
+        "time": "1553234514407",
+        "count": 1842
+      },
+      {
+        "time": "1553234514512",
+        "count": 1856
+      },
+      {
+        "time": "1553234514604",
+        "count": 1004
+      },
+      {
+        "time": "1553234514703",
+        "count": 1659
+      },
+      {
+        "time": "1553234514821",
+        "count": 626
+      },
+      {
+        "time": "1553234514946",
+        "count": 1798
+      },
+      {
+        "time": "1553234515040",
+        "count": 1677
+      },
+      {
+        "time": "1553234515134",
+        "count": 1434
+      }
+    ]
+  },
+  "Fanuc3": {
+    "devid": "Fanuc3",
+    "acqtime": 1562835029,
+    "abs": {
+      "x": 425,
+      "y": -245,
+      "z": -113,
+      "da": 168
+    },
+    "rel": {
+      "x": -47,
+      "y": 147,
+      "z": 211,
+      "da": 207
+    },
+    "mac": {
+      "x": 48,
+      "y": -70,
+      "z": -69,
+      "da": 108
+    },
+    "dis": {
+      "x": -22,
+      "y": 274,
+      "z": -215,
+      "da": 15
+    },
+    "otherData": {
+      "runstatus": null,
+      "autmode": null,
+      "mstbmode": null,
+      "motion": null,
+      "dummy": null,
+      "emergency": null,
+      "edit": null,
+      "tmmode": null,
+      "isalarm": null,
+      "alarm_type": null,
+      "alarm_mes": null,
+      "addinfo": null,
+      "max_axis": null,
+      "axes": null,
+      "cnc_type": null,
+      "mt_type": null,
+      "series": null,
+      "version": null
+    },
+    "spindle_temp": {
+      "spindle_temp": null,
+      "servo_temp_x": null,
+      "servo_temp_y": null,
+      "servo_temp_z": null
+    },
+    "spindle_current": {
+      "spindle_current": 55,
+      "servo_current_x": 60,
+      "servo_current_y": 30,
+      "servo_current_z": 60
+    },
+    "spindle_real_speed": 1252,
+    "spindle_cmd_speed": 1220,
+    "spindle_speed_rate": 71,
+    "servo_cmd_speed": 784,
+    "serv_real_speed_x": 1308,
+    "serv_real_speed_y": 360,
+    "serv_real_speed_z": 1735,
+    "serv_speed_rate": 33,
+    "partcount": null,
+    "totalcount": null,
+    "reqcount": null,
+    "cycletime": null,
+    "cncpowerontime": null,
+    "cncruntime": null,
+    "cnccuttingtime": null,
+    "cncworkratio": null,
+    "progworkratio": null,
+    "feedspeed": 458,
+    "spindlespeed": 435,
+    "spindlecount": null,
+    "currentprognum": null,
+    "mainprognum": null,
+    "seqnum": null,
+    "svload": null,
+    "tool_num": 6,
+    "spload": null,
+    "daycount": [
+      {
+        "day": "1552924800",
+        "count": 393
+      },
+      {
+        "day": "1553011200",
+        "count": 239
+      },
+      {
+        "day": "1553097600",
+        "count": 430
+      },
+      {
+        "day": "1553184000",
+        "count": 457
+      },
+      {
+        "day": "1553270400",
+        "count": 109
+      },
+      {
+        "day": "1553356800",
+        "count": 342
+      },
+      {
+        "day": "1553443200",
+        "count": 106
+      },
+      {
+        "day": "1553529600",
+        "count": 238
+      },
+      {
+        "day": "1553616000",
+        "count": 465
+      },
+      {
+        "day": "1553702400",
+        "count": 490
+      },
+      {
+        "day": "1553788800",
+        "count": 303
+      },
+      {
+        "day": "1553875200",
+        "count": 214
+      },
+      {
+        "day": "1553961600",
+        "count": 433
+      },
+      {
+        "day": "1554048000",
+        "count": 373
+      },
+      {
+        "day": "1554134400",
+        "count": 371
+      },
+      {
+        "day": "1554220800",
+        "count": 175
+      },
+      {
+        "day": "1554307200",
+        "count": 384
+      },
+      {
+        "day": "1554393600",
+        "count": 229
+      },
+      {
+        "day": "1554480000",
+        "count": 459
+      },
+      {
+        "day": "1554566400",
+        "count": 225
+      },
+      {
+        "day": "1554652800",
+        "count": 300
+      },
+      {
+        "day": "1554739200",
+        "count": 114
+      },
+      {
+        "day": "1554825600",
+        "count": 60
+      },
+      {
+        "day": "1554912000",
+        "count": 241
+      },
+      {
+        "day": "1554998400",
+        "count": 456
+      },
+      {
+        "day": "1555084800",
+        "count": 413
+      },
+      {
+        "day": "1555171200",
+        "count": 454
+      },
+      {
+        "day": "1555257600",
+        "count": 76
+      },
+      {
+        "day": "1555344000",
+        "count": 357
+      },
+      {
+        "day": "1555430400",
+        "count": 246
+      }
+    ],
+    "hourcount": [
+      {
+        "hour": "1557248400",
+        "count": 41
+      },
+      {
+        "hour": "1557252000",
+        "count": 52
+      },
+      {
+        "hour": "1557255600",
+        "count": 74
+      },
+      {
+        "hour": "1557259200",
+        "count": 24
+      },
+      {
+        "hour": "1557262800",
+        "count": 36
+      },
+      {
+        "hour": "1557266400",
+        "count": 25
+      },
+      {
+        "hour": "1557270000",
+        "count": 44
+      },
+      {
+        "hour": "1557273600",
+        "count": 14
+      },
+      {
+        "hour": "1557277200",
+        "count": 52
+      },
+      {
+        "hour": "1557280800",
+        "count": 87
+      },
+      {
+        "hour": "1557284400",
+        "count": 14
+      },
+      {
+        "hour": "1557288000",
+        "count": 52
+      },
+      {
+        "hour": "1557291600",
+        "count": 41
+      },
+      {
+        "hour": "1557295200",
+        "count": 39
+      },
+      {
+        "hour": "1557298800",
+        "count": 29
+      },
+      {
+        "hour": "1557302400",
+        "count": 28
+      },
+      {
+        "hour": "1557306000",
+        "count": 17
+      },
+      {
+        "hour": "1557309600",
+        "count": 3
+      },
+      {
+        "hour": "1557313200",
+        "count": 9
+      },
+      {
+        "hour": "1557316800",
+        "count": 43
+      },
+      {
+        "hour": "1557320400",
+        "count": 65
+      },
+      {
+        "hour": "1557324000",
+        "count": 14
+      },
+      {
+        "hour": "1557327600",
+        "count": 6
+      },
+      {
+        "hour": "1557331200",
+        "count": 43
+      }
+    ],
+    "feedspeeddata": [
+      {
+        "time": "1553234509029",
+        "count": 637
+      },
+      {
+        "time": "1553234509128",
+        "count": 1509
+      },
+      {
+        "time": "1553234509224",
+        "count": 68
+      },
+      {
+        "time": "1553234509318",
+        "count": 729
+      },
+      {
+        "time": "1553234509415",
+        "count": 389
+      },
+      {
+        "time": "1553234509510",
+        "count": 397
+      },
+      {
+        "time": "1553234509605",
+        "count": 1063
+      },
+      {
+        "time": "1553234509701",
+        "count": 557
+      },
+      {
+        "time": "1553234509790",
+        "count": 1851
+      },
+      {
+        "time": "1553234509888",
+        "count": 1340
+      },
+      {
+        "time": "1553234509985",
+        "count": 696
+      },
+      {
+        "time": "1553234510127",
+        "count": 1615
+      },
+      {
+        "time": "1553234510229",
+        "count": 19
+      },
+      {
+        "time": "1553234510333",
+        "count": 1931
+      },
+      {
+        "time": "1553234510424",
+        "count": 1923
+      },
+      {
+        "time": "1553234510525",
+        "count": 197
+      },
+      {
+        "time": "1553234510634",
+        "count": 1695
+      },
+      {
+        "time": "1553234510731",
+        "count": 937
+      },
+      {
+        "time": "1553234510826",
+        "count": 1190
+      },
+      {
+        "time": "1553234510922",
+        "count": 633
+      },
+      {
+        "time": "1553234511016",
+        "count": 1576
+      },
+      {
+        "time": "1553234511114",
+        "count": 1763
+      },
+      {
+        "time": "1553234511211",
+        "count": 272
+      },
+      {
+        "time": "1553234511335",
+        "count": 811
+      },
+      {
+        "time": "1553234511438",
+        "count": 1447
+      },
+      {
+        "time": "1553234511535",
+        "count": 1342
+      },
+      {
+        "time": "1553234511643",
+        "count": 344
+      },
+      {
+        "time": "1553234511771",
+        "count": 1455
+      },
+      {
+        "time": "1553234511878",
+        "count": 746
+      },
+      {
+        "time": "1553234511965",
+        "count": 1563
+      },
+      {
+        "time": "1553234512054",
+        "count": 484
+      },
+      {
+        "time": "1553234512165",
+        "count": 113
+      },
+      {
+        "time": "1553234512286",
+        "count": 431
+      },
+      {
+        "time": "1553234512394",
+        "count": 1007
+      },
+      {
+        "time": "1553234512525",
+        "count": 1690
+      },
+      {
+        "time": "1553234512644",
+        "count": 1947
+      },
+      {
+        "time": "1553234512737",
+        "count": 650
+      },
+      {
+        "time": "1553234512834",
+        "count": 681
+      },
+      {
+        "time": "1553234512940",
+        "count": 488
+      },
+      {
+        "time": "1553234513042",
+        "count": 1593
+      },
+      {
+        "time": "1553234513141",
+        "count": 1815
+      },
+      {
+        "time": "1553234513241",
+        "count": 1881
+      },
+      {
+        "time": "1553234513347",
+        "count": 977
+      },
+      {
+        "time": "1553234513455",
+        "count": 1377
+      },
+      {
+        "time": "1553234513544",
+        "count": 1517
+      },
+      {
+        "time": "1553234513667",
+        "count": 764
+      },
+      {
+        "time": "1553234513787",
+        "count": 1264
+      },
+      {
+        "time": "1553234513880",
+        "count": 82
+      },
+      {
+        "time": "1553234513973",
+        "count": 1061
+      },
+      {
+        "time": "1553234514066",
+        "count": 1433
+      },
+      {
+        "time": "1553234514215",
+        "count": 1065
+      },
+      {
+        "time": "1553234514312",
+        "count": 1914
+      },
+      {
+        "time": "1553234514407",
+        "count": 1822
+      },
+      {
+        "time": "1553234514512",
+        "count": 1864
+      },
+      {
+        "time": "1553234514604",
+        "count": 1954
+      },
+      {
+        "time": "1553234514703",
+        "count": 262
+      },
+      {
+        "time": "1553234514821",
+        "count": 1768
+      },
+      {
+        "time": "1553234514946",
+        "count": 192
+      },
+      {
+        "time": "1553234515040",
+        "count": 1930
+      },
+      {
+        "time": "1553234515134",
+        "count": 1442
+      }
+    ]
+  },
+  "Fanuc4": {
+    "devid": "Fanuc4",
+    "acqtime": 1562834866,
+    "abs": {
+      "x": -216,
+      "y": -38,
+      "z": -77,
+      "da": 314
+    },
+    "rel": {
+      "x": -526,
+      "y": 278,
+      "z": -262,
+      "da": 241
+    },
+    "mac": {
+      "x": 689,
+      "y": -209,
+      "z": -217,
+      "da": 338
+    },
+    "dis": {
+      "x": -472,
+      "y": -379,
+      "z": 96,
+      "da": 304
+    },
+    "otherData": {
+      "runstatus": null,
+      "autmode": null,
+      "mstbmode": null,
+      "motion": null,
+      "dummy": null,
+      "emergency": null,
+      "edit": null,
+      "tmmode": null,
+      "isalarm": null,
+      "alarm_type": null,
+      "alarm_mes": null,
+      "addinfo": null,
+      "max_axis": null,
+      "axes": null,
+      "cnc_type": null,
+      "mt_type": null,
+      "series": null,
+      "version": null
+    },
+    "spindle_temp": {
+      "spindle_temp": null,
+      "servo_temp_x": null,
+      "servo_temp_y": null,
+      "servo_temp_z": null
+    },
+    "spindle_current": {
+      "spindle_current": 35,
+      "servo_current_x": 21,
+      "servo_current_y": 21,
+      "servo_current_z": 53
+    },
+    "spindle_real_speed": 1123,
+    "spindle_cmd_speed": 2335,
+    "spindle_speed_rate": 1,
+    "servo_cmd_speed": 493,
+    "serv_real_speed_x": 1864,
+    "serv_real_speed_y": 1407,
+    "serv_real_speed_z": 1584,
+    "serv_speed_rate": 2,
+    "partcount": null,
+    "totalcount": null,
+    "reqcount": null,
+    "cycletime": null,
+    "cncpowerontime": null,
+    "cncruntime": null,
+    "cnccuttingtime": null,
+    "cncworkratio": null,
+    "progworkratio": null,
+    "feedspeed": 773,
+    "spindlespeed": 1572,
+    "spindlecount": null,
+    "currentprognum": null,
+    "mainprognum": null,
+    "seqnum": null,
+    "svload": null,
+    "tool_num": 6,
+    "spload": null,
+    "daycount": [
+      {
+        "day": "1552924800",
+        "count": 196
+      },
+      {
+        "day": "1553011200",
+        "count": 490
+      },
+      {
+        "day": "1553097600",
+        "count": 223
+      },
+      {
+        "day": "1553184000",
+        "count": 445
+      },
+      {
+        "day": "1553270400",
+        "count": 343
+      },
+      {
+        "day": "1553356800",
+        "count": 295
+      },
+      {
+        "day": "1553443200",
+        "count": 76
+      },
+      {
+        "day": "1553529600",
+        "count": 62
+      },
+      {
+        "day": "1553616000",
+        "count": 104
+      },
+      {
+        "day": "1553702400",
+        "count": 218
+      },
+      {
+        "day": "1553788800",
+        "count": 147
+      },
+      {
+        "day": "1553875200",
+        "count": 356
+      },
+      {
+        "day": "1553961600",
+        "count": 389
+      },
+      {
+        "day": "1554048000",
+        "count": 230
+      },
+      {
+        "day": "1554134400",
+        "count": 207
+      },
+      {
+        "day": "1554220800",
+        "count": 245
+      },
+      {
+        "day": "1554307200",
+        "count": 400
+      },
+      {
+        "day": "1554393600",
+        "count": 315
+      },
+      {
+        "day": "1554480000",
+        "count": 431
+      },
+      {
+        "day": "1554566400",
+        "count": 298
+      },
+      {
+        "day": "1554652800",
+        "count": 476
+      },
+      {
+        "day": "1554739200",
+        "count": 377
+      },
+      {
+        "day": "1554825600",
+        "count": 64
+      },
+      {
+        "day": "1554912000",
+        "count": 321
+      },
+      {
+        "day": "1554998400",
+        "count": 354
+      },
+      {
+        "day": "1555084800",
+        "count": 443
+      },
+      {
+        "day": "1555171200",
+        "count": 440
+      },
+      {
+        "day": "1555257600",
+        "count": 87
+      },
+      {
+        "day": "1555344000",
+        "count": 122
+      },
+      {
+        "day": "1555430400",
+        "count": 331
+      }
+    ],
+    "hourcount": [
+      {
+        "hour": "1557248400",
+        "count": 41
+      },
+      {
+        "hour": "1557252000",
+        "count": 53
+      },
+      {
+        "hour": "1557255600",
+        "count": 14
+      },
+      {
+        "hour": "1557259200",
+        "count": 41
+      },
+      {
+        "hour": "1557262800",
+        "count": 45
+      },
+      {
+        "hour": "1557266400",
+        "count": 25
+      },
+      {
+        "hour": "1557270000",
+        "count": 46
+      },
+      {
+        "hour": "1557273600",
+        "count": 26
+      },
+      {
+        "hour": "1557277200",
+        "count": 26
+      },
+      {
+        "hour": "1557280800",
+        "count": 25
+      },
+      {
+        "hour": "1557284400",
+        "count": 11
+      },
+      {
+        "hour": "1557288000",
+        "count": 53
+      },
+      {
+        "hour": "1557291600",
+        "count": 14
+      },
+      {
+        "hour": "1557295200",
+        "count": 52
+      },
+      {
+        "hour": "1557298800",
+        "count": 25
+      },
+      {
+        "hour": "1557302400",
+        "count": 14
+      },
+      {
+        "hour": "1557306000",
+        "count": 14
+      },
+      {
+        "hour": "1557309600",
+        "count": 14
+      },
+      {
+        "hour": "1557313200",
+        "count": 51
+      },
+      {
+        "hour": "1557316800",
+        "count": 53
+      },
+      {
+        "hour": "1557320400",
+        "count": 13
+      },
+      {
+        "hour": "1557324000",
+        "count": 63
+      },
+      {
+        "hour": "1557327600",
+        "count": 31
+      },
+      {
+        "hour": "1557331200",
+        "count": 53
+      }
+    ],
+    "feedspeeddata": [
+      {
+        "time": "1553234509029",
+        "count": 1060
+      },
+      {
+        "time": "1553234509128",
+        "count": 1790
+      },
+      {
+        "time": "1553234509224",
+        "count": 191
+      },
+      {
+        "time": "1553234509318",
+        "count": 962
+      },
+      {
+        "time": "1553234509415",
+        "count": 3
+      },
+      {
+        "time": "1553234509510",
+        "count": 1125
+      },
+      {
+        "time": "1553234509605",
+        "count": 1317
+      },
+      {
+        "time": "1553234509701",
+        "count": 133
+      },
+      {
+        "time": "1553234509790",
+        "count": 1160
+      },
+      {
+        "time": "1553234509888",
+        "count": 161
+      },
+      {
+        "time": "1553234509985",
+        "count": 1442
+      },
+      {
+        "time": "1553234510127",
+        "count": 1360
+      },
+      {
+        "time": "1553234510229",
+        "count": 1736
+      },
+      {
+        "time": "1553234510333",
+        "count": 1767
+      },
+      {
+        "time": "1553234510424",
+        "count": 1455
+      },
+      {
+        "time": "1553234510525",
+        "count": 1466
+      },
+      {
+        "time": "1553234510634",
+        "count": 1969
+      },
+      {
+        "time": "1553234510731",
+        "count": 426
+      },
+      {
+        "time": "1553234510826",
+        "count": 1481
+      },
+      {
+        "time": "1553234510922",
+        "count": 1433
+      },
+      {
+        "time": "1553234511016",
+        "count": 1169
+      },
+      {
+        "time": "1553234511114",
+        "count": 1286
+      },
+      {
+        "time": "1553234511211",
+        "count": 1601
+      },
+      {
+        "time": "1553234511335",
+        "count": 1383
+      },
+      {
+        "time": "1553234511438",
+        "count": 1005
+      },
+      {
+        "time": "1553234511535",
+        "count": 180
+      },
+      {
+        "time": "1553234511643",
+        "count": 560
+      },
+      {
+        "time": "1553234511771",
+        "count": 139
+      },
+      {
+        "time": "1553234511878",
+        "count": 1776
+      },
+      {
+        "time": "1553234511965",
+        "count": 1062
+      },
+      {
+        "time": "1553234512054",
+        "count": 247
+      },
+      {
+        "time": "1553234512165",
+        "count": 526
+      },
+      {
+        "time": "1553234512286",
+        "count": 1444
+      },
+      {
+        "time": "1553234512394",
+        "count": 438
+      },
+      {
+        "time": "1553234512525",
+        "count": 282
+      },
+      {
+        "time": "1553234512644",
+        "count": 195
+      },
+      {
+        "time": "1553234512737",
+        "count": 1279
+      },
+      {
+        "time": "1553234512834",
+        "count": 916
+      },
+      {
+        "time": "1553234512940",
+        "count": 680
+      },
+      {
+        "time": "1553234513042",
+        "count": 1361
+      },
+      {
+        "time": "1553234513141",
+        "count": 1647
+      },
+      {
+        "time": "1553234513241",
+        "count": 410
+      },
+      {
+        "time": "1553234513347",
+        "count": 1222
+      },
+      {
+        "time": "1553234513455",
+        "count": 1996
+      },
+      {
+        "time": "1553234513544",
+        "count": 467
+      },
+      {
+        "time": "1553234513667",
+        "count": 899
+      },
+      {
+        "time": "1553234513787",
+        "count": 1466
+      },
+      {
+        "time": "1553234513880",
+        "count": 998
+      },
+      {
+        "time": "1553234513973",
+        "count": 1021
+      },
+      {
+        "time": "1553234514066",
+        "count": 662
+      },
+      {
+        "time": "1553234514215",
+        "count": 648
+      },
+      {
+        "time": "1553234514312",
+        "count": 1180
+      },
+      {
+        "time": "1553234514407",
+        "count": 966
+      },
+      {
+        "time": "1553234514512",
+        "count": 497
+      },
+      {
+        "time": "1553234514604",
+        "count": 875
+      },
+      {
+        "time": "1553234514703",
+        "count": 78
+      },
+      {
+        "time": "1553234514821",
+        "count": 1477
+      },
+      {
+        "time": "1553234514946",
+        "count": 1439
+      },
+      {
+        "time": "1553234515040",
+        "count": 1039
+      },
+      {
+        "time": "1553234515134",
+        "count": 1730
+      }
+    ]
+  }
+}
