@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'mainpage.dart';
-import 'devicepage.dart';
+import 'devices/devicepage.dart';
 import 'settingspage.dart';
 import 'package:flutter/material.dart';
 
@@ -11,9 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        buttonTheme: ButtonThemeData(
+          minWidth: 0,
+          height: 0,
+          padding: EdgeInsets.all(0),
+          buttonColor: Colors.transparent
+        ),
       ),
       home: MyHomePage(),
     );
@@ -26,6 +33,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  final titleList = ['首页', '', '设置'];
+
   int _selectedIndex = 0;
   var _pageCon = new PageController(initialPage: 0);
 
@@ -38,6 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: _selectedIndex != 1 ? AppBar(
+        title: Text(titleList[_selectedIndex]),
+      ) : null,
       body: Container(
         color: Color.fromRGBO(237, 237, 244, 1.0),
         child: new PageView.builder(

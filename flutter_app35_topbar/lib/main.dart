@@ -23,6 +23,9 @@ class TabControllerPage extends StatefulWidget {
 
 class _TabControllerPageState extends State<TabControllerPage>
     with SingleTickerProviderStateMixin {
+
+  var _titleList = ['设备一', '设备二', '设备三'];
+  var _selectedIndex = 0;
   TabController _tabController;
 
   @override
@@ -31,10 +34,10 @@ class _TabControllerPageState extends State<TabControllerPage>
     _tabController = new TabController(length: 3, vsync: this);
 
     _tabController.addListener(() {
-      var index = _tabController.index;
-      var previousIndex = _tabController.previousIndex;
-      print("index: $index");
-      print('previousIndex: $previousIndex');
+      setState(() {
+        _selectedIndex = _tabController.index;
+        print("_selectedIndex = ${_selectedIndex}");
+      });
     });
     super.initState();
   }
@@ -43,19 +46,19 @@ class _TabControllerPageState extends State<TabControllerPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('thomas'),
+        title: Text(_titleList[_selectedIndex]),
         bottom: TabBar(
           controller: _tabController,
           isScrollable: true,
           tabs: <Widget>[
             Tab(
-              text: '设备一',
+              text: _titleList[0],
             ),
             Tab(
-              text: '设备二',
+              text: _titleList[1],
             ),
             Tab(
-              text: '设备三',
+              text: _titleList[2],
             ),
           ],
         ),

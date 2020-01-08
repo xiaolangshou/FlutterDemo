@@ -1,4 +1,4 @@
-name: flutter_app_d5
+name: flutter_app36_callback
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -19,7 +19,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -71,39 +70,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
-  assets:
-    - assets/images/
-    - assets/images/amazon_logo_beacon.png
-    - assets/images/user_bg.png
-    - assets/images/user_service.png
-    - assets/images/user_collect.png
-    - assets/images/user_help.png
-    - assets/images/user_setting.png
-    - assets/images/user_about.png
-    - assets/images/list_in.png
-    - assets/images/virtual_titleBack.png
-    - assets/images/machine_bg.png
-    - assets/images/jiqiren.png
-    - assets/images/cutter.png
-    - assets/images/arror_right.png
-    - assets/images/zuobiaofansuanlicheng.png
-    - assets/images/jixieshebei.png
-    - assets/images/fsux_tubiao_duijizhuzhuangtu.png
-    - assets/images/jiqishebei.png
-    - assets/images/FOXNUM.gif
-    - assets/images/00.png
-    - assets/images/01.png
-    - assets/images/02.png
-    - assets/images/03.png
-    - assets/images/04.png
-    - assets/images/05.png
-    - assets/images/06.png
-    - assets/images/07.png
-    - assets/images/08.png
-    - assets/images/09.png
-    - assets/images/robot_arm.jpg
-    - assets/images/robot_arm_highlight.jpg
-    - assets/images/feedrate.png
-    - assets/images/state.png
-    - assets/images/cordinate_axis.png
