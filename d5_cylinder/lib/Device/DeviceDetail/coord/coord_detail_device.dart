@@ -42,7 +42,7 @@ class CoordDetailDevice extends StatelessWidget {
     double mac_y;
     double mac_z;
     double mac_da;
-    /*剩余移动量*/
+    /**/
     double dis_x;
     double dis_y;
     double dis_z;
