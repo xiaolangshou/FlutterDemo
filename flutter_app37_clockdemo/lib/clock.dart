@@ -6,6 +6,8 @@ class ClockPage extends StatefulWidget {
   final String axisname;
   final double radius;
   final double currentValue;
+  final double maxValue;
+  final double minValue;
   final Color secondHandColor;
   final Color numberColor;
   final Color borderColor;
@@ -17,7 +19,9 @@ class ClockPage extends StatefulWidget {
       this.numberColor,
       this.borderColor,
       this.radius = 100.0,
-      this.currentValue})
+      this.currentValue,
+      this.maxValue,
+      this.minValue})
       : super(key: key);
 
   @override
@@ -34,6 +38,8 @@ class ClockPageState extends State<ClockPage> {
         Positioned(
             child: CustomPaint(
           painter: ClockPainter(widget.currentValue,
+              widget.minValue,
+              widget.maxValue,
               numberColor: Colors.grey,
               handColor: Colors.blue,
               borderColor: Color.fromRGBO(244, 244, 244, 1),
@@ -69,11 +75,15 @@ class ClockPainter extends CustomPainter {
   List<Offset> secondsOffset = [];
   List<Offset> secondsOffset2 = [];
   final double _currentValue;
+  final double _minValue;
+  final double _maxValue;
   TextPainter textPainter;
   double angle;
   double borderWidth;
 
-  ClockPainter(this._currentValue,
+  ClockPainter(this._maxValue,
+      this._minValue,
+      this._currentValue,
       {this.radius = 100.0,
       this.handColor = Colors.black,
       this.numberColor = Colors.black,
@@ -120,10 +130,11 @@ class ClockPainter extends CustomPainter {
       ..color = numberColor;
 
     if (secondsOffset.length > 0) {
-      canvas.drawPoints(PointMode.points, secondsOffset, secondPPaint);
-
       for (var i = 0; i < secondsOffset.length; i++) {
-        if (i != 6) {
+        if (i != 6 && i!= 2 && i!= 5 && i!= 7 && i!= 10) {
+          canvas.drawLine(secondsOffset[i], secondsOffset2[i], secondPPaint);
+        } else {
+//          canvas.drawImage(, secondsOffset[i], secondPPaint);
           canvas.drawLine(secondsOffset[i], secondsOffset2[i], secondPPaint);
         }
       }
